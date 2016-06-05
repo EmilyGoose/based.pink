@@ -1,6 +1,5 @@
     * {
       box-sizing: border-box;
-      cursor: url('bust.cur'), default;
     }
     h1 {
       color: #f68181;
@@ -11,6 +10,7 @@
     }
     body {
       background-color: #fbc8c8;
+      cursor: url('bust.cur'), default;
     }
     .bread {
       margin-top: -50px;
