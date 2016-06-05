@@ -1,6 +1,6 @@
     * {
       box-sizing: border-box;
-      cursor: url('/img/bust.png'), default;
+      cursor: url('bust.cur'), default;
     }
     h1 {
       color: #f68181;
