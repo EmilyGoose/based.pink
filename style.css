@@ -10,6 +10,7 @@
     }
     body {
       background-color: #fbc8c8;
+      cursor: url('/img/bust.png'), default;
     }
     .bread {
       margin-top: -50px;
@@ -32,6 +33,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+   
     #statue:hover {
       body{background-color: #ffff00}
     }
