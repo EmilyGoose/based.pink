@@ -1,0 +1,58 @@
+    * {
+      box-sizing: border-box;
+    }
+    h1 {
+      color: #f68181;
+      text-shadow:5px 4px #c8fbfb;
+      text-align: center;
+      font-size: 4em;
+      font-family:"Arial", sans-serif;
+    }
+    body {
+      background-color: #fbc8c8;
+    }
+    .bread {
+      margin-top: -50px;
+    }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    .gun {
+      height: 10vh;
+      width: 10vw;
+      margin-top: -50px;
+    }
+    .nintendo {
+      height: 15vh;
+      width: 15vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #statue:hover {
+      body{background-color: #ffff00}
+    }
+    #eve {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+      -webkit-animation-direction: alternate;
+      -webkit-animation-timing-function: linear;
+      animation: mymove 2s infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+    }
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes mymove {
+      from {-webkit-transform: skewX(10deg); -webkit-filter: hue-rotate(0deg);}
+      to {-webkit-transform: skewX(-10deg); -webkit-filter: hue-rotate(0deg); }
+    }
+    /* Standard syntax */
+    @keyframes mymove {
+      from {transform: skewX(10deg); filter: hue-rotate(0deg);}
+      to {transform: skewX(-10deg); filter: hue-rotate(360deg);}
+    }
