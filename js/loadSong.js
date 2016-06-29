@@ -15,5 +15,5 @@ player.onclick = function() {
     source1.pause();
     source1.currentTime = 0;
   }
-  this.innerHTML = "Stop the Music!" + nextTrack;
+  this.innerHTML = "Switch the music to track # " + nextTrack;
 }
