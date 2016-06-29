@@ -9,7 +9,7 @@
       font-family:"Arial", sans-serif;
     }
     body {
-      background-color: #fbc8c8;
+      background-image: url("../img/pink.png");
       cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
     }
     .bread {
@@ -33,7 +33,7 @@
       margin-left: auto;
       margin-right: auto;
     }
-   
+
     #statue:hover {
       body{background-color: #ffff00}
     }
