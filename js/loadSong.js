@@ -3,7 +3,7 @@ var source1 = document.getElementById('source1');
 var source2 = document.getElementById('source2');
 
 player.onclick = function() {
-  curTrack = this.innerHTML.replace(/Stop the Music! /, "");
+  curTrack = 1;
   if (curTrack == "1") {
     nextTrack = "2";
     source1.play();
@@ -15,5 +15,4 @@ player.onclick = function() {
     source1.pause();
     source1.currentTime = 0;
   }
-  this.innerHTML = "Stop the Music!";
 }
