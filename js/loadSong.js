@@ -3,7 +3,7 @@ var source1 = document.getElementById('source1');
 var source2 = document.getElementById('source2');
 
 player.onclick = function() {
-  curTrack = this.innerHTML.replace(/Switch the music to track # /, "");
+  curTrack = this.innerHTML.replace(/Stop the Music! /, "");
   if (curTrack == "1") {
     nextTrack = "2";
     source1.play();
