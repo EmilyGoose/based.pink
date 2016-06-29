@@ -1,7 +1,7 @@
 function loadSong(){
 
     var player=document.getElementById('player');
-    var source1=document.getElementById('player');
+    var source1=document.getElementById('source1');
     var source2=document.getElementById('player');
 
     source1.src='/audio/mac+.mp3';
