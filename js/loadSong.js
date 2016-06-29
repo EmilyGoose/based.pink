@@ -1,3 +1,7 @@
+var player = document.getElementById('player');
+var source1 = document.getElementById('source1');
+var source2 = document.getElementById('source2');
+
 player.onclick = function() {
   curTrack = this.innerHTML.replace(/Switch the music to track # /, "");
   if (curTrack == "1") {
@@ -11,4 +15,5 @@ player.onclick = function() {
     source1.pause();
     source1.currentTime = 0;
   }
+  this.innerHTML = "Stop the Music!";
 }
