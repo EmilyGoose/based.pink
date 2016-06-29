@@ -12,6 +12,9 @@
       background-image: url("/img/pink.png");
       cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
     }
+		button {
+			color: #C9C9C9;
+		}
     .bread {
       margin-top: -50px;
     }
