@@ -13,16 +13,16 @@
 	<title>絶 対 ゴ ミ 箱</title>
 </head>
 <body class="opacity">
-	<audio id="player" autoplay="autoplay" preload="auto" loop="loop">
-		<source id="source1" src="/audio/mac+.mp3" type="audio/mpeg">
-		<source id="source2" src="" type="audio/mpeg">
-	</audio>
+
+	<audio id="source1" autoplay="autoplay" preload="auto" loop="loop" src='/audio/mac+.mp3'></audio>
+	<audio id="source2" loop="loop" src='/audio/mac-slowed.mp3'></audio>
+
 	<img src="/img/nitendowave.png" class="nintendo"/>
 	<h1>ベ ー ス の ピ ン ク</h1><h1 class="bread">(B A S E D) (P I N K) </h1>
 	<img src="/img/spinning gun.gif" class="left gun"/>
 	<img src="/img/spinning gun-reverse.gif" class="right gun"/>
 	<img id="eve" src="/img/eve.png" style="height:500px"/>
-	<button onclick='loadSong()'>Stop the Music!</button>
+	<button id="player" onclick='loadSong()'>Stop the Music!</button>
 <!--SCRIPTS-->
 <script src="/js/loadSong.js"></script>
 </body>
