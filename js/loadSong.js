@@ -3,8 +3,7 @@ var source1 = document.getElementById('source1');
 var source2 = document.getElementById('source2');
 
 player.onclick = function() {
-  curTrack = 1;
-  if (curTrack == "1") {
+	while (true) {
     nextTrack = "2";
     source1.play();
     source2.pause();
