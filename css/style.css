@@ -13,7 +13,15 @@
       cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
     }
 		button {
-			color: #C9C9C9;
+			background-color: #C9C9C9;
+			color: black;
+			border-radius: 1px;
+			font: monospace;
+			font-size: 14px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+
 		}
     .bread {
       margin-top: -50px;
