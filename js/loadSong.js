@@ -11,6 +11,7 @@ player.onclick = function() {
 	    source2.pause();
 	    source2.currentTime = 0;
 			i++;
+			console.log(i);
 	  } else {
 	    nextTrack = "1";
 	    source2.play();
