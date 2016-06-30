@@ -3,8 +3,8 @@ var source1 = document.getElementById('source1');
 var source2 = document.getElementById('source2');
 
 player.onclick = function() {
-	var i = 1
-	if (i%2 == 0) {
+	var i = 1;
+	if (i%2 === 0) {
     source1.play();
     source2.pause();
     source2.currentTime = 0;
@@ -16,4 +16,4 @@ player.onclick = function() {
     source1.currentTime = 0;
 		i++;
 	}
-}
+};
