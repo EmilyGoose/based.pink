@@ -1,70 +1,104 @@
-    * {
-      box-sizing: border-box;
-    }
-    h1 {
-      color: #f68181;
-      text-shadow:5px 4px #c8fbfb;
-      text-align: center;
-      font-size: 4em;
-      font-family:"Arial", sans-serif;
-    }
-    body {
-      background-image: url("/img/pink.png");
-      cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
-    }
-		button {
-			background-color: #C9C9C9;
-			border-radius: 1px;
-			color: black;
-			display: inline-block;
-			font-size: 14px;
-			text-align: center;
-			text-decoration: none;
-		}
-    .bread {
-      margin-top: -50px;
-    }
-    .left {
-      float: left;
-    }
-    .right {
-      float: right;
-    }
-    .gun {
-      height: 10vh;
-      width: 10vw;
-      margin-top: -50px;
-    }
-    .nintendo {
-      height: 15vh;
-      width: 15vh;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+h1 {
+	color: #f68181;
+	text-shadow: 5px 4px #c8fbfb;
+	text-align: center;
+	font-size: 4em;
+	font-family: "Arial", sans-serif;
+}
 
-    #statue:hover {
-      body{background-color: #ffff00}
-    }
-    #eve {
-      display: block;
-			height: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
-      -webkit-animation-direction: alternate;
-      -webkit-animation-timing-function: linear;
-      animation: mymove 2s infinite;
-      animation-direction: alternate;
-      animation-timing-function: linear;
-    }
-    /* Chrome, Safari, Opera */
-    @-webkit-keyframes mymove {
-      from {-webkit-transform: skewX(10deg); -webkit-filter: hue-rotate(0deg);}
-      to {-webkit-transform: skewX(-10deg); -webkit-filter: hue-rotate(0deg); }
-    }
-    /* Standard syntax */
-    @keyframes mymove {
-      from {transform: skewX(10deg); filter: hue-rotate(0deg);}
-      to {transform: skewX(-10deg); filter: hue-rotate(360deg);}
-    }
+body {
+	background-image: url("http://based.pink/img/pink.png");
+	cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
+}
+
+button {
+	background-color: #C9C9C9;
+	border-radius: 1px;
+	color: black;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.bread {
+	margin-top: -50px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.gun {
+	height: 10vh;
+	width: 10vw;
+	margin-top: -50px;
+}
+
+.nintendo {
+	height: 15vh;
+	width: 15vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.eve {
+	display: block;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	/* Chrome, Safari, Opera */
+	-webkit-animation: mymove 2s infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: linear;
+	/* Mozilla-based browsers */
+	-moz-animation: mymove 2s infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: linear;
+	/* Standard syntax */
+	animation: mymove 2s infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+	from {
+		-webkit-transform: skewX(10deg);
+		-webkit-filter: hue-rotate(0deg);
+	}
+	to {
+		-webkit-transform: skewX(-10deg);
+		-webkit-filter: hue-rotate(0deg);
+	}
+}
+
+/* Mozilla-based browsers */
+@-moz-keyframes mymove {
+	from {
+		-moz-transform: skewX(10deg);
+		-moz-filter: hue-rotate(0deg);
+	}
+	to {
+		-moz-transform: skewX(-10deg);
+		-moz-filter: hue-rotate(0deg);
+	}
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+	from {
+		transform: skewX(10deg);
+		filter: hue-rotate(0deg);
+	}
+	to {
+		transform: skewX(-10deg);
+		filter: hue-rotate(360deg);
+	}
+}
