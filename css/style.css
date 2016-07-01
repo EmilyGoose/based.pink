@@ -11,12 +11,13 @@ body {
 	cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
 }
 
-button {
+.song {
 	background-color: #C9C9C9;
 	border-radius: 1px;
 	color: black;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 25px;
+	padding: 50px 25px;
 	text-align: center;
 	text-decoration: none;
 }
