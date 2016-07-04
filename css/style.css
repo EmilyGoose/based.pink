@@ -136,7 +136,8 @@ body {
 }
 
 .question {
-  margin-top: -30px
+  margin-top: -30px;
+	margin-left: 10px;
 }
 
 .text {
