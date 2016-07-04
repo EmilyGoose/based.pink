@@ -159,6 +159,7 @@ body {
 
 .window {
   font-family: monospace;
+	width:25%;
 }
 
 .x {
