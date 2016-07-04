@@ -9,6 +9,7 @@ h1 {
 body {
 	background-image: url("http://based.pink/img/pink.png");
 	cursor: url('http://i.imgur.com/VtgxXVJ.png'), default;
+	position:relative;
 }
 
 .song {
@@ -159,7 +160,8 @@ body {
 
 .window {
   font-family: monospace;
-	width:25%;
+	position: absolute;
+	width: 25%;
 }
 
 .x {
