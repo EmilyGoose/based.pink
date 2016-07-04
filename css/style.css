@@ -16,6 +16,7 @@ body {
 	border-radius: 1px;
 	color: black;
 	display: inline-block;
+	float: left;
 	font-size: 25px;
 	padding: 50px 25px;
 	text-align: center;
@@ -102,4 +103,87 @@ body {
 		transform: skewX(-10deg);
 		filter: hue-rotate(360deg);
 	}
+}
+
+.box {
+  background-color: #C9C9C9;
+}
+
+.button {
+  display: inline;
+  float: right;
+  background-color: #b2b2b2;
+  height: 120%;
+  margin-top: -10px;
+}
+
+.content {
+  background-color: #b2b2b2;
+  position: relative;
+}
+
+.content-button {
+  background-color: #b2b2b2;
+  border-bottom: 2px solid #999999;
+  border-right: 2px solid #999999;
+  border-left: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+}
+
+.icon {
+  width: 100px;
+}
+
+.question {
+  margin-top: -30px
+}
+
+.text {
+  padding-top: 10px;
+}
+
+.topbar {
+  background: #000080;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #000080, #9999cc);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #000080, #9999cc);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #000080, #9999cc);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #000080, #9999cc);
+  /* Standard syntax (must be last) */
+  color: white;
+  height: 40px;
+}
+
+.window {
+  font-family: monospace;
+}
+
+.x {
+  background-color: #b2b2b2;
+}
+
+.x:hover {
+  background-color: red;
+}
+
+main {
+  position: background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+main div {
+  background: black;
+  color: white;
+  padding: 15px;
+  max-width: 125px;
+  margin: 5px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
