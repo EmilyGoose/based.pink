@@ -160,7 +160,6 @@ body {
 }
 
 .window {
-	margin: auto;
   font-family: monospace;
 	position: absolute;
 	width: 300px;
