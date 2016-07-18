@@ -50,6 +50,10 @@ body {
 	margin-right: auto;
 }
 
+.imagewapper {
+	width: 352px;
+	margin: 0 auto;
+}
 .eve {
 	display: block;
 	height: 500px;
