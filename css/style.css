@@ -1,3 +1,6 @@
+* {
+	cursor: url("/bust.png"), default;
+}
 h1 {
 	color: #f68181;
 	text-shadow: 5px 4px #c8fbfb;
