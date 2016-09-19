@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function startTime() {
+            var today = new Date();
+            var date2 = new Date("May 28, 2016 14:33:42");
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            var str = "";
+            if(h=="4" && m=="20")
+                str = "420 blaze it";
+            else
+                str =    h + ":" + m + ":" + s;
+
+            if (date2 < today) {
+                date2.setDate(date2.getDate() + 1);
+
+
+                var diff = today - date2;
+
+                var msec = diff;
+                var hh = Math.floor(msec / 1000 / 60 / 60);
+                msec -= hh * 1000 * 60 * 60;
+                var mm = Math.floor(msec / 1000 / 60);
+                msec -= mm * 1000 * 60;
+                var ss = Math.floor(msec / 1000);
+                msec -= ss * 1000;
+
+                var days = Math.floor(hh/24);
+                hh = hh % 24;
+
+                str += "<br>It has been " + days + " days, " + hh + " hours, " + mm + " minutes and " + ss + " seconds since our lord and savior, Harambe, died.<br>May he live in eternal peace, and may the bananas always be ripe for him."
+// diff = 28800000 => hh = 8, mm = 0, ss = 0, msec = 0
+            }
+            document.getElementById('txt').innerHTML = str;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+    </script>
+</head>
+
+<body onload="startTime()">
+<audio src="../harambee/harambee.webm" loop="loop" autoplay="autoplay" width="10" height="10" hidden="true" ></audio>
+<div id="txt"></div>
+<img src="http://i2.mirror.co.uk/incoming/article8075004.ece/ALTERNATES/s615b/Harambe.jpg" />
+</body>
+</html>
+
