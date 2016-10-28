@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/plethorum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://based.pink
+  * I am plethorum (https://keybase.io/plethorum) on keybase.
+  * I have a public key ASCQ7_nJi9_g13M4eE9TIhWWOjDPPNJvZ58KzQAwNicpLwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012090eff9c98bdfe0d77338784f532215963a30cf3cd26f679f0acd00303627292f0a",
+            "host": "keybase.io",
+            "kid": "012090eff9c98bdfe0d77338784f532215963a30cf3cd26f679f0acd00303627292f0a",
+            "uid": "1434d1c8c85fd081aabcdc7b1145ce19",
+            "username": "plethorum"
+        },
+        "service": {
+            "hostname": "based.pink",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1477696941,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1477696854,
+        "hash": "8c5dc4136a685ce2a5b155ae2de9e43103136331d7f581ecab5566164d26244d92367979fc0ac38d96afc3e8b77a6e233e6d458ef364f8a9a91d91e4601d509f",
+        "seqno": 692425
+    },
+    "prev": "dec3b8610732019dfb50fdf68ff71259ac266a21141c3eb684d0bcb5a01fec2f",
+    "seqno": 15,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkO/5yYvf4NdzOHhPUyIVljowzzzSb2efCs0AMDYnKS8Kp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTBlZmY5Yzk4YmRmZTBkNzczMzg3ODRmNTMyMjE1OTYzYTMwY2YzY2QyNmY2NzlmMGFjZDAwMzAzNjI3MjkyZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTBlZmY5Yzk4YmRmZTBkNzczMzg3ODRmNTMyMjE1OTYzYTMwY2YzY2QyNmY2NzlmMGFjZDAwMzAzNjI3MjkyZjBhIiwidWlkIjoiMTQzNGQxYzhjODVmZDA4MWFhYmNkYzdiMTE0NWNlMTkiLCJ1c2VybmFtZSI6InBsZXRob3J1bSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYmFzZWQucGluayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc3Njk2OTQxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Nzc2OTY4NTQsImhhc2giOiI4YzVkYzQxMzZhNjg1Y2UyYTViMTU1YWUyZGU5ZTQzMTAzMTM2MzMxZDdmNTgxZWNhYjU1NjYxNjRkMjYyNDRkOTIzNjc5NzlmYzBhYzM4ZDk2YWZjM2U4Yjc3YTZlMjMzZTZkNDU4ZWYzNjRmOGE5YTkxZDkxZTQ2MDFkNTA5ZiIsInNlcW5vIjo2OTI0MjV9LCJwcmV2IjoiZGVjM2I4NjEwNzMyMDE5ZGZiNTBmZGY2OGZmNzEyNTlhYzI2NmEyMTE0MWMzZWI2ODRkMGJjYjVhMDFmZWMyZiIsInNlcW5vIjoxNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECjIOr7oglksACz0tP11AyJBhat6xNcMQiHGrfA+IvipRYC3kjthUGtEMaspSG2XSiBkZzN1T2rSxwUwOMhR3ECqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgnmEP8UnpRUh3Zm5Tvns7bQB6EOcEdjqlw3u1UmHiyZ+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/plethorum
+
+==================================================================
