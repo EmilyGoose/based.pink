@@ -151,6 +151,10 @@ body {
   padding-top: 10px;
 }
 
+.titletext {
+	margin-left: 10px;
+}
+
 .topbar {
   background: #000080;
   /* For browsers that do not support gradients */
